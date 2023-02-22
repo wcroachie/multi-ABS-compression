@@ -10,6 +10,8 @@
     *     at the top before the rest of your code runs. it works by getting the IIFE as a string via
     *     arguments.callee.toString(), attaching that to the window and storing it with "~" as a prefix
     *     to acess later when you want to "compile" everything
+    *  - to exclude files from the compiler, either do not closure them or put /* COMPILER-IGNORE */
+    *     at the very top of the iife
     *
     */
   
