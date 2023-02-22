@@ -1,0 +1,5 @@
+- this library uses LZUTF8 and JSZIP but I included those and minified them to save you the trouble.
+- you can use this on minified code and it should still make your code even smaller.
+- it works by first using LZ compression to compress your code as base64 and then uses my own string compression algorith which goes through the string and replaces the most common adjacent character pairings with 1 unused single-byte character.
+- it sort of works
+- it's evil
