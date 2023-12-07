@@ -1,1 +1,5 @@
--it's evil
+- what does multi-ABS mean? i made it up. it means multiple-adjacent-byte-substitution
+- how does it work? it searches a string for the most common adjacent byte pairings and replaces them with an unused single byte. it appends to a dictionary. in this version, it is designed to decode itself at runtime, so it can be evalled.
+- what do i use this for? i currently do not have a use for it. originally i wanted to make something to minify code quickly, until i found out what gzip was.
+- what is this for? i dont know. it seems like it could be useful.
+- it's evil
